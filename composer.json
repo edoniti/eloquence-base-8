@@ -1,11 +1,17 @@
 {
-    "name": "sofa/eloquence-base",
+    "name": "edoniti/sofa-eloquence-base-8",
     "description": "Flexible Searchable, Mappable, Metable, Validation and more extensions for Laravel Eloquent ORM.",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/jarektkaczyk/eloquence-base/issues",
-        "source": "https://github.com/jarektkaczyk/eloquence-base"
+        "issues": "https://github.com/edoniti/eloquence-base-8/issues",
+        "source": "https://github.com/edoniti/eloquence-base-8"
     },
+    "repositories": [
+        {
+            "url": "https://github.com/edoniti/hookable-8.git",
+            "type": "git"
+        }
+    ],
     "keywords": [
         "laravel",
         "eloquent",
@@ -24,7 +30,7 @@
     ],
     "require": {
         "php": ">=7.1",
-        "sofa/hookable": ">=5.5",
+        "edoniti/sofa-hookable-8": "dev-master",
         "illuminate/database": ">=5.5"
     },
     "require-dev": {
