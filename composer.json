@@ -8,7 +8,7 @@
     },
     "repositories": [
         {
-            "url": "https://github.com/edoniti/hookable-8.git",
+            "url": "git@github.com:edoniti/hookable-8.git",
             "type": "vcs"
         }
     ],
